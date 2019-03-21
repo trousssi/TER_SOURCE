@@ -1,7 +1,7 @@
 
     <?php $filesads = array('bouygue.jpg', 'carrefour.jpg', 'cdiscount.jpg', 'red.png', 'sosh.png');
     $randomNumber = rand (0, count($filesads)-1);
-    $myurl = "http://ip_duserveur/ads/";
+    $myurl = "http://ip_duserveur/ads/"; // A Modifier
     echo $myurl.$filesads[$randomNumber]; ?>
 
 
