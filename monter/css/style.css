@@ -1,0 +1,52 @@
+body{
+    width:100%;
+    background-color: #E0E0E0;
+}
+
+body header{
+    width: 100%;
+    
+}
+body header h1{
+    text-align: center;
+}
+
+.maincnt{
+    border-top: 1px gray solid;
+}
+
+
+#ads-zone{
+    padding: 2px;
+    position: fixed;
+    z-index: 2;
+    color:black;
+    top:50%;
+    right:2px;
+    border: 1px solid black;
+    background-color: white;
+    width: auto;
+    margin-top: -200px;
+}
+#ads-zone p{
+    text-align: center;
+    padding:0px;
+    margin:0;
+}
+#ads-zone img{
+    height: 300px;
+}
+
+section aside{
+    text-align: center;   
+}
+
+section aside img{
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 10px;
+}
+
+section article{
+    text-align: justify;
+}
